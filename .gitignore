@@ -1,0 +1,65 @@
+# Ignore build directories
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+
+# Ignore CMake cache files
+CMakeCache.txt
+CMakeFiles/
+
+# Ignore compiled binaries
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dll
+*.lib
+*.dylib
+
+# Ignore log files
+*.log
+
+# Ignore generated files
+*.gch
+*.pch
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*.swn
+*~
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
+Desktop.ini
+
+# Ignore system-generated files
+*.crash
+*.pid
+*.seed
+*.backup
+
+# Ignore project-specific files
+.idea/
+.vscode/
+*.iml
+
+# Ignore compile_commands.json
+compile_commands.json
+
+# Ignore specific directories for other IDEs
+/.settings/
+/.metadata/
+/.classpath/
+/.project
